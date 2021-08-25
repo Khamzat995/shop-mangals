@@ -1,6 +1,5 @@
-  
 {
-  "name": "frontend",
+  "name": "mangal-shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,8 +20,7 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0",
-    "sass": "^1.32.8",
-    "web-vitals": "^1.1.0"
+    "sass": "^1.32.8"
   },
   "scripts": {
     "start": "react-scripts start",
