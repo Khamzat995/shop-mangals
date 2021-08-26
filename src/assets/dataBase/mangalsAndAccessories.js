@@ -318,12 +318,12 @@ const mangals = [
     ],
     type: [
       "Мангалы и аксессуары",
-      "Мангалы с крышей", 'Стационарные мангалы', 'Мангалы с казаном', 'Грили барбекю'
+      "Мангалы с крышей", 'Стационарные мангалы', 'Мангалы с казаном', 'Грили барбекю', 'Смокеры'
     ],
     url: "/smoker-sm40/",
     price: {
-      oldPrice: null,
-      newPrice: 52990
+      oldPrice: 56700,
+      newPrice: 49990
     },
     image: [
       "https://mangalik.ru/wa-data/public/shop/products/54/13/1354/images/4577/4577.600.jpg",
@@ -377,8 +377,8 @@ const mangals = [
             articul: " 12369",
             price: {
               title: "",
-              newPrice: 10150,
-              oldPrice: null
+              newPrice: 13150,
+              oldPrice: 13150
             },
             active: false
           }
@@ -480,7 +480,6 @@ const mangals = [
 
     ]
   },
-  // 
   // 16559
   {
     code: 16559,
@@ -505,7 +504,7 @@ const mangals = [
     count: 1,
     image: [
       "https://mangalik.ru/wa-data/public/shop/products/29/11/1129/images/2228/2228.400.jpg",
-      "https://mangalik.ru/wa-data/public/shop/products/29/11/1129/images/2227/2227.600.jpg", 
+      "https://mangalik.ru/wa-data/public/shop/products/29/11/1129/images/2227/2227.600.jpg",
       "https://mangalik.ru/wa-data/public/shop/products/29/11/1129/images/2223/2223.600.jpg"
     ],
     info: {
@@ -556,7 +555,7 @@ const mangals = [
     ],
     recomendedProductCode: [11235, 10921, 10000],
     accessoriesProductCode: [10161, 10162, 10166, 10152, 10151, 10953, 10159],
-    url: "mangal_sm26p-2-grill-barbecu-stal-5mm/",
+    url: "/mangal_sm26p-2-grill-barbecu-stal-5mm/",
     price: {
       oldPrice: 46350,
       newPrice: 41715
@@ -649,14 +648,21 @@ const mangals = [
     code: 10921,
     title: `Мангал ВИКИНГ с печью для казана (2021)`,
     characteristics: [
-      { title: 'Габаритные размеры (Д х Ш х В)', info: '200 × 110 × 235 см' },
+      { title: 'Габаритные размеры (Д х Ш х В)', info: '250 × 110 × 235 см' },
       { title: 'Размер жаровни Д х Ш', info: '100 × 35 см ' },
+      { title: 'Глубина жаровни', info: '17 см ' },
+      { title: 'Кол-во прорезей для шампуров', info: '13' },
+      { title: 'Печь для казана', info: 'есть' },
+      { title: 'Место для дров', info: 'есть' },
+      { title: 'Столик', info: 'есть' },
     ],
+    recomendedProductCode: [11235, 66680, 10000],
+    accessoriesProductCode: [11567, 10161, 10605, 10953, 10160],
     type: [
       "Мангалы и аксессуары",
       "Мангалы с крышей", 'Мангалы с печкой под казан', 'Мангалы с крышкой', 'Стационарные мангалы', 'Мангалы с казаном', 'Мангалы для дачи'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/mangal_17/",
     price: {
       oldPrice: 46350,
       newPrice: 41715
@@ -664,6 +670,9 @@ const mangals = [
     count: 1,
     image: [
       "https://mangalik.ru/wa-data/public/shop/products/39/14/1439/images/3707/3707.600.jpg",
+      'https://mangalik.ru/wa-data/public/shop/products/39/14/1439/images/3708/3708.600.jpg',
+      'https://mangalik.ru/wa-data/public/shop/products/39/14/1439/images/3706/3706.600.jpg',
+      'https://mangalik.ru/wa-data/public/shop/products/39/14/1439/images/4457/4457.600.jpg'
     ],
     info: {
       status: true,
@@ -680,66 +689,53 @@ const mangals = [
       { title: 'РЕШЕТКА-ГРИЛЬ В КОМПЛЕКТЕ:', select: ['есть'] },
     ],
     categorySliderFilter: [
-      { title: 'ЦЕНА:', select: 46350 },
+      { title: 'ЦЕНА:', select: 41715 },
     ],
     notAvailable: [
     ],
     select: [
-    ],
-    add: [
       {
-        title: "Добавить стальные кольца (+1 500 руб.)",
-        price: 1500,
-        active: false
+        type: "long",
+        title: "",
+        titleChoiceActive: "",
+        choice: [
+          {
+            title: "жаровня 3 мм",
+            articul: "10670",
+            price: {
+              title: '',
+              newPrice: 0,
+              oldPrice: 0
+            },
+            active: true
+          },
+          {
+            title: "жаровня 5 мм",
+            articul: "14575",
+            price: {
+              title: null,
+              newPrice: 4500,
+              oldPrice: 5000
+            },
+            active: false
+          },
+          {
+            title: "жаровня 5 мм с зольниками",
+            articul: "66670",
+            price: {
+              title: null,
+              newPrice: 8100,
+              oldPrice: 9000
+            },
+            active: false
+          }
+        ]
       }
-    ]
-  },
-  // 66680
-  {
-    code: 66680,
-    title: `Большой смокер СМ40 с крышей и столами`,
-    characteristics: [
-      { title: 'Габаритные размеры (Д х Ш х В)', info: '200 × 110 × 235 см' },
-      { title: 'Размер жаровни Д х Ш', info: '100 × 35 см ' },
-    ],
-    type: [
-      "Мангалы и аксессуары",
-      "Мангалы с крышей", 'Мангалы с крышкой', 'Смокеры'
-    ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
-    price: {
-      oldPrice: null,
-      newPrice: 52990
-    },
-    count: 1,
-    image: [
-      "https://mangalik.ru/wa-data/public/shop/products/54/13/1354/images/4577/4577.400.jpg",
-    ],
-    info: {
-      status: true,
-      bestDeals: false,
-      bestSellers: false,
-      plusPresent: false
-    },
-    categoryFilters: [
-      { title: 'КРЫША-НАВЕС НАД МАНГАЛОМ:', select: ['есть'] },
-      { title: 'ПЕЧКА ДЛЯ КАЗАНА:', select: ['есть'] },
-      { title: 'ВЫБЕРИТЕ ТОЛЩИНУ МЕТАЛЛА ЖАРОВНИ:', select: ['3 мм', '5 мм'] },
-      { title: 'ВЫБЕРИТЕ ТИП ЖАРОВНИ:', select: ['обычная', 'с зольниками'] },
-      { title: 'ТОЛЩИНА МЕТАЛЛА:', select: ['3 мм'] },
-      { title: 'РЕШЕТКА-ГРИЛЬ В КОМПЛЕКТЕ:', select: ['есть'] },
-    ],
-    categorySliderFilter: [
-      { title: 'ЦЕНА:', select: 52990 },
-    ],
-    notAvailable: [
-    ],
-    select: [
     ],
     add: [
       {
-        title: "Добавить стальные кольца (+1 500 руб.)",
-        price: 1500,
+        title: 'Доплата за печь из стали 5 мм (+3 500 руб.)',
+        price: 3500,
         active: false
       }
     ]
@@ -760,9 +756,11 @@ const mangals = [
     code: 13265,
     title: `Печь-мангал ИСКАНДЕР-400 "Комфорт Эйр" с крышкой-гриль и чугунной решеткой`,
     characteristics: [
-      { title: 'Габаритные размеры (Д х Ш х В)', info: '211 × 168 × 225 см' },
-      { title: 'Размер жаровни Д х Ш', info: '64 × 35 см ' },
-      { title: 'Глубина жаровни', info: '15 см ' },
+      { title: 'Габаритные размеры (Д х Ш х В)', info: '211 × 68 × 225 см' },
+      { title: 'Толщина металла жаровни', info: '3 мм' },
+      { title: 'Решетка-гриль в комплекте', info: 'да' },
+      { title: 'Размер жаровни Д х Ш', info: '64 × 35 см' },
+      { title: 'Глубина жаровни', info: '15 см' },
       { title: 'Печь для казана', info: 'есть' },
       { title: 'Место для дров', info: 'есть' },
       { title: 'Столик', info: 'есть' },
@@ -773,15 +771,20 @@ const mangals = [
       "Мангалы и аксессуары",
       "Мангалы без крыши", 'Мангалы на колесах', 'Мангалы с казаном', 'Мангалы для дачи'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/37/",
     price: {
       oldPrice: null,
       newPrice: 44480
     },
     image: [
       "https://mangalik.ru/wa-data/public/shop/products/31/15/1531/images/4360/4360.600.jpg",
-      "https://mangalik.ru/wa-data/public/shop/products/39/04/439/images/4327/4327.970.jpg",
-      "https://mangalik.ru/wa-data/public/shop/products/39/04/439/images/671/671.600.jpg",
+      "https://mangalik.ru/wa-data/public/shop/products/31/15/1531/images/4357/4357.600.jpg",
+      "https://mangalik.ru/wa-data/public/shop/products/31/15/1531/images/4359/4359.600.jpg",
+      'https://mangalik.ru/wa-data/public/shop/products/31/15/1531/images/4290/4290.600.jpg',
+      'https://mangalik.ru/wa-data/public/shop/products/31/15/1531/images/4285/4285.600.jpg',
+      'https://mangalik.ru/wa-data/public/shop/products/31/15/1531/images/4288/4288.600.jpg',
+      'https://mangalik.ru/wa-data/public/shop/products/31/15/1531/images/4289/4289.600.jpg',
+      'https://mangalik.ru/wa-data/public/shop/products/31/15/1531/images/4358/4358.600.jpg'
     ],
     info: {
       status: true,
@@ -797,7 +800,7 @@ const mangals = [
       { title: 'ТИП:', select: ['гриль 3 в 1'] }
     ],
     categorySliderFilter: [
-      { title: 'ЦЕНА:', select: 44480 },
+      { title: 'ЦЕНА:', select: 39880 },
       { title: 'КОЛ-ВО ПРОРЕЗЕЙ ДЛЯ ШАМПУРОВ:', select: 9 }
     ],
     count: 1,
@@ -809,16 +812,6 @@ const mangals = [
         price: 3190,
         active: false
       },
-      {
-        title: "Разгрузка и установка на участке (+2 000 руб.)",
-        price: 2500,
-        active: false
-      },
-      {
-        title: "Разгрузка и установка на участке (+2 000 руб.)",
-        price: 2500,
-        active: false
-      }
     ]
   },
   // 10749
@@ -826,12 +819,8 @@ const mangals = [
     code: 10749,
     title: `Печь-мангал ИСКАНДЕР "Комфорт эйр" с крышкой-гриль и чугунной решеткой`,
     characteristics: [
-      { title: 'Габаритные размеры (Д х Ш х В)', info: '211 × 168 × 225 см' },
-      { title: 'Размер жаровни Д х Ш', info: '64 × 35 см ' },
-      { title: 'Глубина жаровни', info: '15 см ' },
-      { title: 'Печь для казана', info: 'есть' },
-      { title: 'Место для дров', info: 'есть' },
-      { title: 'Столик', info: 'есть' },
+      { title: 'Толщина металла жаровни', info: '3 мм' },
+      { title: 'Решетка-гриль в комплекте', info: 'да' },
     ],
     recomendedProductCode: [11235, 13265, 10000, 66680],
     accessoriesProductCode: [],
@@ -840,15 +829,15 @@ const mangals = [
       "Мангалы без крыши", 'Мангалы с печкой под казан', 'Мангалы с крышкой', 'Мангалы на колесах', 'Мангалы с казаном', 'Мангалы для дачи'
       , 'Грили барбекю'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/pech-mangal-iskander-komfort-air-s-kryshkoj-gril-i-chugunnoj-reshetkoj/",
     price: {
       oldPrice: null,
       newPrice: 39880
     },
     image: [
       "https://mangalik.ru/wa-data/public/shop/products/91/15/1591/images/4835/4835.600.jpg",
-      "https://mangalik.ru/wa-data/public/shop/products/39/04/439/images/4327/4327.970.jpg",
-      "https://mangalik.ru/wa-data/public/shop/products/39/04/439/images/671/671.600.jpg",
+      "https://mangalik.ru/wa-data/public/shop/products/91/15/1591/images/4836/4836.600.jpg",
+      "https://mangalik.ru/wa-data/public/shop/products/91/15/1591/images/4837/4837.600.jpg",
     ],
     info: {
       status: true,
@@ -872,12 +861,27 @@ const mangals = [
     select: [],
     add: [
       {
-        title: `Добавить чугунную плиту (+3 190 руб.)`,
-        price: 3190,
+        title: ` Добавить чугунный казан 8л (+4 000 руб.)`,
+        price: 4000,
         active: false
       },
+      {
+        title: "Добавить набор инструментов (+2 200 руб.)",
+        price: 2200,
+        active: false
+      },
+      {
+        title: "Добавить чугунную плиту (+3 200 руб.)",
+        price: 3200,
+        active: false
+      }
     ]
   },
+
+
+
+
+
   // 13688
   {
     code: 13688,
@@ -897,7 +901,7 @@ const mangals = [
       "Мангалы без крыши", 'Мангалы с печкой под казан',
       'Мангалы из стали 5 мм', 'Мангалы для дачи', 'Грили барбекю'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/gril-mangal-mm55/",
     price: {
       oldPrice: 39900,
       newPrice: 37990
@@ -909,8 +913,8 @@ const mangals = [
     ],
     info: {
       status: true,
-      bestDeals: true,
-      bestSellers: true,
+      bestDeals: false,
+      bestSellers: false,
       plusPresent: false
     },
     categoryFilters: [
@@ -952,7 +956,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Мангалы без крыши", 'Мангалы на колесах'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/Mangal-FAJRKRAFT-Komfort-Ejr-s-kryshkoj-gril-i-reshetkoj-iz-nerzhavejki/",
     price: {
       oldPrice: null,
       newPrice: 27780
@@ -964,8 +968,8 @@ const mangals = [
     ],
     info: {
       status: true,
-      bestDeals: true,
-      bestSellers: true,
+      bestDeals: false,
+      bestSellers: false,
       plusPresent: false
     },
     categoryFilters: [
@@ -1007,7 +1011,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Мангалы без крыши", 'Мангалы с крышкой', 'Мангалы на колесах', 'Грили барбекю'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/848/",
     price: {
       oldPrice: null,
       newPrice: 27180
@@ -1019,8 +1023,8 @@ const mangals = [
     ],
     info: {
       status: true,
-      bestDeals: true,
-      bestSellers: true,
+      bestDeals: false,
+      bestSellers: false,
       plusPresent: false
     },
     categoryFilters: [
@@ -1061,7 +1065,7 @@ const mangals = [
     type: ["Мангалы и аксессуары", "Мангалы без крыши", 'Мангалы с печкой под казан', 'Мангалы с крышкой', 'Мангалы на колесах', 'Мангалы с казаном'
       , 'Мангалы для дачи', 'Грили барбекю'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/mangal_42/",
     price: {
       oldPrice: 28950,
       newPrice: 26055
@@ -1073,8 +1077,8 @@ const mangals = [
     ],
     info: {
       status: true,
-      bestDeals: true,
-      bestSellers: true,
+      bestDeals: false,
+      bestSellers: false,
       plusPresent: false
     },
     categoryFilters: [
@@ -1117,7 +1121,7 @@ const mangals = [
       "Мангалы без крыши",
       'Мангалы с печкой под казан', 'Мангалы на колесах', 'Мангалы с казаном', 'Мангалы для дачи'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/mangal-s-pechkoy-mm22p/",
     price: {
       oldPrice: 22650,
       newPrice: 21600
@@ -1129,8 +1133,8 @@ const mangals = [
     ],
     info: {
       status: true,
-      bestDeals: true,
-      bestSellers: true,
+      bestDeals: false,
+      bestSellers: false,
       plusPresent: false
     },
     categoryFilters: [
@@ -1173,7 +1177,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Мангалы без крыши", 'Мангалы с крышкой', 'Мангалы для дачи', 'Грили барбекю'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/mangal_sm10-2-grill-barbecu-stal-5m/",
     price: {
       oldPrice: 21700,
       newPrice: 19530
@@ -1185,8 +1189,8 @@ const mangals = [
     ],
     info: {
       status: true,
-      bestDeals: true,
-      bestSellers: true,
+      bestDeals: false,
+      bestSellers: false,
       plusPresent: false
     },
     categoryFilters: [
@@ -1228,7 +1232,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Мангалы без крыши", 'Мангалы с крышкой', 'Грили барбекю'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/mangal_52/",
     price: {
       oldPrice: null,
       newPrice: 17290
@@ -1240,8 +1244,8 @@ const mangals = [
     ],
     info: {
       status: true,
-      bestDeals: true,
-      bestSellers: true,
+      bestDeals: false,
+      bestSellers: false,
       plusPresent: false
     },
     categoryFilters: [
@@ -1284,7 +1288,7 @@ const mangals = [
       "Мангалы без крыши",
       'Мангалы из стали 5 мм', 'Мангалы для дачи'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/11248/",
     price: {
       oldPrice: null,
       newPrice: 44990
@@ -1339,7 +1343,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Мангалы без крыши", 'Мангалы для дачи'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/mangal_m10/",
     price: {
       oldPrice: 14990,
       newPrice: 11430
@@ -1390,7 +1394,7 @@ const mangals = [
     type: [
       "Мангалы и аксессуары", 'Жаровни к мангалам'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/zharovnya-topka-k-mangalu-1000x350x170-stal-3-mm/",
     price: {
       oldPrice: null,
       newPrice: 9334
@@ -1429,7 +1433,7 @@ const mangals = [
     type: [
       "Мангалы и аксессуары", 'Жаровни к мангалам'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/zharovnya-topka-k-mangalu-s-zolnikami-1000x350x170-stal-5-mm/",
     price: {
       oldPrice: null,
       newPrice: 16945
@@ -1469,7 +1473,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Аксессуары для мангалов"
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/503/",
     price: {
       oldPrice: null,
       newPrice: 1300
@@ -1511,7 +1515,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Аксессуары для мангалов", 'Решетки гриль'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/reshetka-gril-prostaya-1/",
     price: {
       oldPrice: null,
       newPrice: 2990
@@ -1549,7 +1553,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Аксессуары для мангалов", 'Решетки гриль'
     ],
-    url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+    url: "/reshetka-gril-vstraivaemaya-200-x-360-mm/",
     price: {
       oldPrice: null,
       newPrice: 990
@@ -1637,7 +1641,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Аксессуары для мангалов"
     ],
-    url: "/kryshka-barbekyu-600-350/",
+    url: "/kryshka-dlya-zharovni-60s/",
     price: {
       oldPrice: null,
       newPrice: 1300
@@ -1677,7 +1681,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Аксессуары для мангалов", 'Шампуры'
     ],
-    url: "/kryshka-barbekyu-600-350/",
+    url: "/6-shampurov/",
     price: {
       oldPrice: 1500,
       newPrice: 1390
@@ -1717,7 +1721,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Аксессуары для мангалов", 'Вертела'
     ],
-    url: "/kryshka-barbekyu-600-350/",
+    url: "/vertel-k-mangalu-mm-malyy/",
     price: {
       oldPrice: null,
       newPrice: 1990
@@ -1757,7 +1761,7 @@ const mangals = [
       "Мангалы и аксессуары",
       "Аксессуары для мангалов", 'Подставки для казана'
     ],
-    url: "/kryshka-barbekyu-600-350/",
+    url: "/vertel-k-mangalu-mm-malyy/",
     price: {
       oldPrice: null,
       newPrice: 790

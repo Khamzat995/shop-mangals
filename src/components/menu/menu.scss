@@ -16,7 +16,7 @@
             display: none;
         }
     }
-    @media all and (max-device-width: 400px){
+    @media (max-width: 500px){
         position: fixed;
         top:0;
         left: 0;

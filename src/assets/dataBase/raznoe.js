@@ -54,7 +54,7 @@ const raznoe = [
         recomendedProductCode: [10161],
         accessoriesProductCode: [],
         type: ['Коптильни'],
-        url: "/756/",
+        url: "/koptilnya-s-gidrozatvorom/",
         price: {
             oldPrice: 9500,
             newPrice: 8990
@@ -98,7 +98,7 @@ const raznoe = [
         recomendedProductCode: [10161],
         accessoriesProductCode: [],
         type: ['Узбекская посуда'],
-        url: "/756/",
+        url: "/506/",
         price: {
             oldPrice: null,
             newPrice: 1000
@@ -139,7 +139,7 @@ const raznoe = [
         recomendedProductCode: [10161],
         accessoriesProductCode: [],
         type: ['Чугунные сковороды'],
-        url: "/756/",
+        url: "/skovoroda-chugunnaya-dlya-grilya-28028040-siton/",
         price: {
             oldPrice: null,
             newPrice: 1990

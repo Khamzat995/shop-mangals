@@ -12,13 +12,13 @@ const Product_66680 = () => {
         code: 66680,
         panelList: [
             { title: 'ОПИСАНИЕ', content: description },
-            // { title: 'ХАРАКТЕРИСТИКИ', content: null },
+            { title: 'ХАРАКТЕРИСТИКИ', content: null },
             { title: 'ОТЗЫВЫ', content: reviews },
         ],
         navigation: [
             { title: 'Главная', path: '/', active: false },
             { title: 'Смокеры', path: '/category/smokery/', active: false },
-            { title: `Печь-мангал ИСКАНДЕР "Инклайн Эйр" с крышкой-гриль и чугунной решеткой`, path: '/', active: true },
+            { title: `Большой смокер СМ40 с крышей и столами`, path: '/', active: true },
         ]
     }
 

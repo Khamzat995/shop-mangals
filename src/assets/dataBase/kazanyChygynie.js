@@ -7,7 +7,7 @@ const kazani = [
         type: [
             "Казаны чугунные", 'Афганские казаны'
         ],
-        url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+        url: "/11/",
         price: {
             oldPrice: null,
             newPrice: 4200
@@ -46,7 +46,7 @@ const kazani = [
         type: [
             "Казаны чугунные", 'Казаны чугунные 6 л',
         ],
-        url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+        url: "/kazan-1/",
         price: {
             oldPrice: 3790,
             newPrice: 3490
@@ -85,7 +85,7 @@ const kazani = [
         type: [
             "Казаны чугунные", 'Казаны чугунные 8 л',
         ],
-        url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+        url: "/kazan-chugunnyy-8l-s-chugunnoy-kryshkoy-skovorodoy/",
         price: {
             oldPrice: null,
             newPrice: 5290
@@ -124,7 +124,7 @@ const kazani = [
         type: [
             "Казаны чугунные", 'Казаны чугунные 10 л', 'Узбекские казаны'
         ],
-        url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+        url: "/kazan-2/",
         price: {
             oldPrice: null,
             newPrice: 5800
@@ -171,7 +171,7 @@ const kazani = [
         type: [
             "Казаны чугунные", 'Казаны чугунные 12 л', 'Узбекские казаны', 
         ],
-        url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+        url: "/kazan-chugun-12-uzbek-ploskoe-dno/",
         price: {
             oldPrice: 5200,
             newPrice: 2990
@@ -210,7 +210,7 @@ const kazani = [
         type: [
             "Казаны чугунные", 'Казаны чугунные 16 л', 'Узбекские казаны'
         ],
-        url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+        url: "/332323",
         price: {
             oldPrice: 4400,
             newPrice: 2990
@@ -249,7 +249,7 @@ const kazani = [
         type: [
             "Казаны чугунные", 'Казаны чугунные 22 л',
         ],
-        url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+        url: "/924/",
         price: {
             oldPrice: 12990,
             newPrice: 9990

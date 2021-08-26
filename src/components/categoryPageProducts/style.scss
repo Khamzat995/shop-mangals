@@ -12,7 +12,7 @@
         .categoryPage__title {
             font-size: 30px;
             font-weight: 500;
-            @media all and (max-device-width: 400px) {
+            @media all and (max-device-width: 500px) {
                 margin-left: 15px;
             }
         }
@@ -144,7 +144,7 @@
                     }
                 }
             }
-            @media all and (max-device-width:400px) {
+            @media all and (max-device-width:500px) {
                 margin-left: 15px;
             }
         }

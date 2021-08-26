@@ -13,6 +13,9 @@ import Product_66680 from './pages/mainPageProducts/mangalsAndAccessories/66680'
 import Product_2223355 from './pages/mainPageProducts/mangalsAndAccessories/2223355'
 import Product_16559 from './pages/mainPageProducts/mangalsAndAccessories/16559'
 import Product_66614 from './pages/mainPageProducts/mangalsAndAccessories/66614'
+import Product_10921 from './pages/mainPageProducts/mangalsAndAccessories/10921'
+import Product_13265 from './pages/mainPageProducts/mangalsAndAccessories/13265'
+import Product_10749 from './pages/mainPageProducts/mangalsAndAccessories/10749'
 
 import Product_10152 from './pages/mainPageProducts/mangalsAndAccessories/10152'
 
@@ -110,33 +113,32 @@ const Routes = () => {
                 <Route path='/category/kazany-chugunnye/na-10-litrov/'><Kazani10L /> </Route>
                 <Route path='/category/kazany-chugunnye/na-12-litrov/'><Kazani12L /> </Route>
                 <Route path='/category/kazany-chugunnye/na-16-litrov/'><Kazani16L /> </Route>
-                <Route path='/category/kazany-chugunnye/na-22-litra/'><Kazani22L/> </Route> 
+                <Route path='/category/kazany-chugunnye/na-22-litra/'><Kazani22L /> </Route>
                 <Route path='/category/kazany-chugunnye/afganskie/'><AfganskyKazany /></Route>
                 <Route path='/category/kazany-chugunnye/uzbekskie/'><YzbegsckyKazany /> </Route>
 
 
                 <Route path='/category/pechi-pod-kazan/'> <PechiDlyaKazanov /> </Route>
 
-                <Route path='/category/komplekty-kazan-pech/'> <KazanPlusPech/> </Route>
-                <Route path='/category/pechi-dlya-szhiganiya-musora/'> <PechiDlyaSjiganiyaMusora/> </Route>
-                <Route path='/category/smokery/'> <Smokery/> </Route>
-                <Route path='/category/koptil/'> <Koptilny/> </Route>
-                <Route path='/category/uzbekskaya-posuda/'> <YzbegskayaPosuda/> </Route>
-                <Route path='/category/chugunnye-skovorody/'> <ChugunySkovorodki/> </Route>
+                <Route path='/category/komplekty-kazan-pech/'> <KazanPlusPech /> </Route>
+                <Route path='/category/pechi-dlya-szhiganiya-musora/'> <PechiDlyaSjiganiyaMusora /> </Route>
+                <Route path='/category/smokery/'> <Smokery /> </Route>
+                <Route path='/category/koptil/'> <Koptilny /> </Route>
+                <Route path='/category/uzbekskaya-posuda/'> <YzbegskayaPosuda /> </Route>
+                <Route path='/category/chugunnye-skovorody/'> <ChugunySkovorodki /> </Route>
 
                 {/* Продукты Мангалы и Акссесуары */}
                 <Route path='/mangal_sm27p-2-grill-barbecu-stal-5mm'> <Product_15478 /> </Route>
                 <Route path='/mangal_17-1'> <Product_11235 /> </Route>
-
-                <Route path='/pech-gril-iskandyer-inklayn-eyr-s-chugunnoy-reshetkoy-gril/'> <Product_10000/> </Route>
+                <Route path='/pech-gril-iskandyer-inklayn-eyr-s-chugunnoy-reshetkoy-gril/'> <Product_10000 /> </Route>
                 <Route path='/smoker-sm40/'> <Product_66680 /> </Route>
                 <Route path='/mangal-vityaz-shef-povar/'> <Product_16559 /> </Route>
                 <Route path='/mangal_sm26p-2-grill-barbecu-stal-5mm/'> <Product_66614 /> </Route>
-              
-
-
-
                 <Route path='/mangal-besedka-s-lavochkoy/'> <Product_2223355 /> </Route>
+                <Route path='/mangal_17/'> <Product_10921 /> </Route>
+                <Route path='/37/'> <Product_13265 /> </Route>
+                <Route path='/pech-mangal-iskander-komfort-air-s-kryshkoj-gril-i-chugunnoj-reshetkoj/'> <Product_10749 /> </Route>
+
                 <Route path='/kryshka-barbekyu-600-350/'> <Product_10152 /> </Route>
 
 

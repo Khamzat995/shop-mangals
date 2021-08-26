@@ -41,7 +41,7 @@ const AccessoriesModal = ({ showAcessoriesModal, setShowAcessoriesModal, allProd
                         Акксесуары для Мангал ВИТЯЗЬ с печкой под казан, крышкой-гриль и решеткой (2021)
                     </div>
                     {accessoriesArray.map((item, i) => (
-                        <div key={i} className="content__item">
+                        <div key={i} className="accessoriesModal__content-item">
                             <div className="contentItem__leftBlock">
                                 <img src={item?.image[0]} alt="1" />
                             </div>
@@ -51,11 +51,8 @@ const AccessoriesModal = ({ showAcessoriesModal, setShowAcessoriesModal, allProd
                                 <div className="discription">{item?.description && item.description}</div>
                                 <div className="rightBlock__priceButton">
                                     <div className="price">{item?.price.newPrice} руб.</div>
-                                    {/* <div className="priceButton__button">
-                                        <i className="fas fa-cart-plus"></i>
-                                        <div>В корзину</div>
-                                    </div> */}
-                                    <MainButton productForCart={item}/>
+
+                                    <MainButton productForCart={item} type={'accessoriesModal'}/>
                                 </div>
                             </div>
                         </div>

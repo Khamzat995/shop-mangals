@@ -33,7 +33,7 @@ const ProductPreviewText = (props) => {
             {product.info.status && <div className="preview-text__status">В наличии</div>}
             <div className="preview-text__title-articul">
                 <div className='title-articul__articul'>Артикул: {product.code}</div>
-                <div className='title-articul__title'>{product.title}</div>
+                <div onClick={()=> history.push(product.url)} className='title-articul__title'>{product.title}</div>
             </div>
             <div className="preview-text-input-count">
                 <InputCart

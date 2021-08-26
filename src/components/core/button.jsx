@@ -50,6 +50,12 @@ const MainButton = ({ addClass, productForCart, getDataFromCart, setBottomBarMod
             moveX = bottomCartX - preview.clientWidth / 3
             moveY = window.innerHeight + window.scrollY - 200
         }
+        if (type === 'accessoriesModal') {
+            preview = btnRef.current.parentNode.parentNode.parentNode
+            moveX = bottomCartX - preview.clientWidth / 3
+            moveY = window.innerHeight + window.scrollY - 200
+            console.log(preview)
+        }
 
         clonePreview = preview.cloneNode(true)
         clonePreview.classList.add('clonePreview')

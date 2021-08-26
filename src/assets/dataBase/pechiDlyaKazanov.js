@@ -15,7 +15,7 @@ const pechiDlyaKazanov = [
         recomendedProductCode: [11235, 13265, 10000, 66680],
         accessoriesProductCode: [11235, 10000],
         type: [ 'Печи для казанов'],
-        url: "/mangal_sm27p-2-grill-barbecu-stal-5mm/",
+        url: "/13/",
         price: {
             oldPrice: null,
             newPrice: 20300
